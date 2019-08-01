@@ -3,12 +3,12 @@ import { createStackNavigator,
 
 import Main from './pages/main';
 
-const NavStack = createStackNavigator({
+const blenQ = createStackNavigator({
     Home: { 
-        screen: Main,
+        screen: Main
     }
 });
 
-const App = createAppContainer(NavStack);
+const App = createAppContainer(blenQ);
 
 export default App;
